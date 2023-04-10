@@ -1,11 +1,8 @@
 return {
-  'Mofiqul/dracula.nvim',
+  'ellisonleao/gruvbox.nvim',
+  priority = 1000,
   config = function()
-    vim.cmd.colorscheme 'dracula'
-    require('lualine').setup {
-      options = {
-        theme = 'dracula-nvim'
-      }
-    }
+    vim.cmd.colorscheme 'gruvbox'
+    vim.o.background = 'dark'
   end,
 }
