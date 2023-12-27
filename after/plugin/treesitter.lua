@@ -20,7 +20,9 @@ vim.defer_fn(function()
       'eex',
       'heex',
       'html',
-      'css'
+      'css',
+      'markdown',
+      'markdown_inline'
     },
   }
 end, 0)
