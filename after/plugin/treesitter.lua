@@ -22,7 +22,8 @@ vim.defer_fn(function()
       'html',
       'css',
       'markdown',
-      'markdown_inline'
+      'markdown_inline',
+      'terraform'
     },
   }
 end, 0)
